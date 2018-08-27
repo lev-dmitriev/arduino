@@ -1,11 +1,13 @@
 
+//подключаем библиотеки
 #include "ESP8266.h"
 #include <SoftwareSerial.h>
 #include <math.h>
 #include <stdlib.h>
  
-#define SSID     " Z2131"
-#define PASSWORD "pS2H8aN2"
+ //подключаемся к сети wi-fi
+#define SSID     "user"
+#define PASSWORD "password"
 #define TEMP_PIN A0
  
 SoftwareSerial mySerial(4, 5);
